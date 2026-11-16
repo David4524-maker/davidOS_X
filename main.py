@@ -118,5 +118,5 @@ def gui():
     root.mainloop()
 
 if __name__ == "__main__":
-    if "--cli" in sys.argv: build(os.path.join(HERE, "index.html"), os.path.join(HERE, "iso_out"))
+    if "--cli" in sys.argv: build(os.path.join(HERE, "davidOS_X.html"), os.path.join(HERE, "iso_out"))
     else: gui()
